@@ -1,0 +1,25 @@
+{
+    "controls" : {
+        "play": "Play",
+        "stop": "Stop",
+        "pause": "Pause",
+        "ffw": "Fast forward",
+        "frw": "Fast rewind",
+        "record": "Record"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About"
+    },
+    "edit": {
+        "cut": "Cut",
+        "past": "Past",
+        "copy": "Copy",
+        "insert-silence": "Insert silence"
+    },
+    "region": {
+        "start": "Region start",
+        "end": "Region end",
+        "length": "Region length"
+    }
+}

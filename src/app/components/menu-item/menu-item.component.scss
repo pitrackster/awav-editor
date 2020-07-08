@@ -1,0 +1,40 @@
+@import './../../../theme-dark.scss';
+
+.sub-menu {
+    position: absolute;
+    min-width: 100px;
+    min-height: 20px;
+    top: 40px;
+    background: $contrast-bg;
+    padding: 0;
+    z-index: 200;
+  }
+
+  button {
+    &.menu-button {
+      border: none;
+      color:  $font-color-light;
+      background-color: $body-background;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      &:hover {
+        background-color: $foreground-color;      
+      }
+    }
+    &.sub-menu-button {
+        border: none;
+        color:  $font-color-dark;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        background: $contrast-bg;
+        font-size: 14px;
+        &:hover {
+          background-color: darken($contrast-bg, 50%);      
+        }
+    }
+}

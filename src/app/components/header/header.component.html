@@ -1,0 +1,10 @@
+<nav role="heading" class="my-nav" fxLayout="row" fxLayoutGap="15px">
+  <app-menu-item [selected]="current == 'file'" (click)="onClick('file')" (mouseenter)="menuItemMouseEnter('file')"
+    (mouseleave)="menuItemMouseLeave('file')" (clicked)="subMenuItemClicked($event)" [label]="'file.label' | translate"
+    [items]="menuItems.file">
+  </app-menu-item>
+  <app-menu-item [selected]="current == 'edit'" (click)="onClick('edit')" (mouseenter)="menuItemMouseEnter('edit')"
+    (mouseleave)="menuItemMouseLeave('edit')" (clicked)="subMenuItemClicked($event)" [label]="'edit.label' | translate"
+    [items]="menuItems.edit">
+  </app-menu-item>
+</nav>

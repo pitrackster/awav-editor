@@ -1,0 +1,7 @@
+<div>
+    <button class="menu-button">{{label}}</button>
+    <div fxLayout="column" fxLayoutGap="5px" *ngIf="selected" class="sub-menu">
+        <button *ngFor="let item of items" (click)="itemClicked(item)"
+            class="sub-menu-button">{{item.transKey | translate}}</button>
+    </div>
+</div>

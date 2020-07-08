@@ -1,4 +1,25 @@
+<div class="page" fxLayout="column">
+  <app-header></app-header>
 
-<div class="page-container">
-  <router-outlet></router-outlet>
+  <div class="vertical-spacer"></div>
+    <div class="editor" fxLayout="column" fxLayoutGap="15px">
+ 
+      <mat-card fxLayout="row" class="toolbar">
+        <button class="player-button"> <i class="fas fa-stop"></i></button>
+         
+      </mat-card>
+      <mat-card class="main" fxLayout="row" fxLayoutGap="15px">
+          <div fxFlex="80" fxLayout="column" class="col-left">
+              <div id="waveform"></div>
+          </div>
+          <div fxFlex="20" fxLayout="column" class="col-right">
+              <div fxLayout="column" class="fxs-container">
+                  FX CHAIN
+              </div>
+              <div fxLayout="column" class="vu-container">
+                  VU METER
+              </div>
+          </div>
+      </mat-card>
+  </div>
 </div>

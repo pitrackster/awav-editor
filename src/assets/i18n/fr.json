@@ -1,0 +1,34 @@
+{
+    "controls": {
+        "play": "Play",
+        "stop": "Stop",
+        "pause": "Pause",
+        "ffw": "Fast forward",
+        "frw": "Fast rewind",
+        "record": "Record"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About"
+    },
+    "file": {
+        "label": "File",
+        "export": "Export",
+        "open": "Open"
+    },
+    "edit": {
+        "label": "Edit",
+        "cut": "Cut",
+        "paste": "Paste",
+        "copy": "Copy",
+        "make-silent": "Make silent",
+        "insert-silence": "Insert silence",
+        "undo": "Undo",
+        "redo": "Redo"
+    },
+    "region": {
+        "start": "Region start",
+        "end": "Region end",
+        "length": "Region length"
+    }
+}
